@@ -1,0 +1,257 @@
+html{
+    font-family: 'Poppins';
+}
+body{
+    background: linear-gradient(to bottom, #f0f0f0 60%, #cb3931 40%)
+}
+.card1{
+    padding: 0 50px 40px 40px;
+    margin: 80px 120px 80px 120px;
+    background-color: white;
+}
+.Introduction{
+    display: flex;
+}
+img{
+    margin-right: 50px;
+    margin-bottom: -100px;
+}
+article{
+    padding-top: 50px;
+    margin: 80px;
+    margin-left: 40px;
+    color: #cb3931;
+    font-size: 15px;
+}
+.about{
+    block-size: 465px;
+    background-color: #f0f0f0;
+    margin-right: -50px;
+    margin-left: 40px;
+    border: solid 1px whitesmoke;
+}
+.who_me{
+    display: flex;
+}
+#m{
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 100px;
+    font-weight: bolder;
+    margin-bottom: -110px;
+}
+.who_me p{
+    padding-left: 80px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.links{
+    padding-top: 140px;
+    margin-left: -200px;
+}
+.tel, .mail, .web{
+    margin: 10px;
+}
+.tel a, .web a, .mail a{
+    color: #cb3931;
+    font-weight: bold;
+
+}
+.icons{
+    padding-top: 15px;
+    margin-left: 450px;
+    display: flex;
+    margin-top: 15px;
+}
+.icons a{
+    color: black;
+}
+.f, .t, .i{
+    margin: 10px;
+}
+.major{
+    display: flex;
+    margin-top: -100px;
+}
+.major p{
+    padding-left: 80px;
+    font-size: 30px;
+    color: #cb3931;
+}
+.info{
+    display: flex;
+    margin-left: 40px;
+}
+.experience{
+    margin-top: 20px;
+    padding-right: 150px;
+}
+.o{
+    font-weight: bold;
+    color: #cb3931;
+    font-size: 30px;
+}
+.company{
+    display: flex;
+    block-size: 100%;
+}
+.date{
+    margin-top: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.datef{
+    margin-top: 60px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.head{
+    font-weight: bolder;
+    margin-top: -5px;
+}
+.com{
+    font-weight: bold;
+    color: #cb3931;
+    margin-top: -5px;
+}
+.text1{
+    margin-top: -5px;
+    color: rgb(190, 190, 190);
+}
+.education{
+    margin-top: 20px;
+    padding-left: 150px;
+}
+
+@media screen and (max-width: 768px){
+    .Introduction{
+        flex-direction: column;
+    }
+    img {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    article{
+        margin: -20px 0 10px 10px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .card1 {
+        padding: 0 20px 20px 20px;
+        margin: 40px;
+        background-color: white;
+    }
+    .about {
+        block-size: 465px;
+        background-color: #f0f0f0;
+        margin: 20px;
+    }
+    .who_me {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #m {
+        padding: 10px;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: -50px;
+    }
+    
+    .who_me p {
+        padding: 10px;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .links {
+        padding-top: 60px;
+        margin-left: -20px;
+        text-align: center;
+    }
+    
+    .tel, .mail, .web {
+        margin: 10px;
+    }
+    
+    .tel a, .web a, .mail a {
+        color: #cb3931;
+        font-weight: bold;
+    }
+    
+    .icons {
+        padding-top: 30px;
+        margin-left: 270px;
+    }
+    .icons a {
+        color: black;
+    }
+    
+    .f, .t, .i {
+        margin: 10px;
+        padding-top: 105px;
+    }
+    
+    .major {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .major p {
+        padding: 10px;
+        font-size: 25px;
+        color: #cb3931;
+        margin-top: -100px;
+        margin-left: 50px;
+    }
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .experience {
+        margin-top: 20px;
+        padding-right: 20px;
+    }
+    
+    .o {
+        font-weight: bold;
+        color: #cb3931;
+        font-size: 30px;
+    }
+    
+    .company {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .date, .datef {
+        margin-top: 30px;
+        font-weight: bolder;
+        font-style: italic;
+    }   
+    .head {
+        font-weight: bolder;
+        margin-top: -5px;
+    }
+    
+    .com {
+        font-weight: bold;
+        color: #cb3931;
+        margin-top: -5px;
+    }
+    
+    .text1 {
+        margin-top: -5px;
+        color: rgb(190, 190, 190);
+    }
+    
+    .education {
+        margin-top: 10px;
+        margin-left: -160px;
+    }
+}    
